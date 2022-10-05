@@ -1,6 +1,9 @@
 
 .headline{
-    background:black;
+    background-image: url("../imgs/istockphoto-916057678-612x612.jpg");
+    background-repeat: repeat-x;
+    background-size:50%;
+    
 }
 
 .menu{
@@ -24,23 +27,24 @@
     width: 40%;
     height: 40%;  
     margin-top: 10px;
+
 }
 
 .container{
     display: inline-block;
-    margin-top: 10px;
+    
     width:100%;
    
     vertical-align: text-top;
 }
 
-.image{
-    margin-top: 20px;
-   
+#image{
+   margin-top: 30px;
     width: 300px; 
     height: 200px;
    margin-left: 4%;
    border-radius: 40px;
+  
 }
  .paragraph{
     display: inline-block;
@@ -49,10 +53,11 @@
     text-align: left;
     text-align: justify;
    color: whitesmoke;
-   margin-top:3%;
-   margin-left: 5%;
+   margin-top:1%;
+   margin-left: 2%;
    font-family: arial;
-   font-size: 15px;
+   font-size: 20px;
+   font-weight: bold;
 }
 .group{
     display: inline-block;
@@ -189,5 +194,6 @@ h1{
     color: white;
     width: 100%;
     height: 60px;
+    font-weight: bold;
     padding-top: 40px;
 }
