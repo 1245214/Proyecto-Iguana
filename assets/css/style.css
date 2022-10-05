@@ -2,7 +2,7 @@
 .headline{
     background-image: url("../imgs/istockphoto-916057678-612x612.jpg");
     background-repeat: repeat-x;
-    background-size:50%;
+    background-size:50%
     
 }
 
@@ -27,6 +27,8 @@
     width: 40%;
     height: 40%;  
     margin-top: 10px;
+    box-shadow: 0px 0px 15px currentcolor;
+    border: 5px solid currentcolor;
 
 }
 
@@ -44,6 +46,8 @@
     height: 200px;
    margin-left: 4%;
    border-radius: 40px;
+   box-shadow: 0px 0px 15px currentcolor;
+   border: 5px solid currentcolor;
   
 }
  .paragraph{
@@ -66,6 +70,8 @@
     background: rgb(182, 171, 171);
 }
 h1{
+    font-family: Arial;
+    font-weight: bold;
     text-align: center;
     color: black;
 }
@@ -85,12 +91,14 @@ h1{
     height: 70px;
   margin-left: 46%;
   margin-right: 50%;
+  
 }
  .paragraph1{
     
     text-align: center;
     font-family: arial;
     font-size: 20px;
+    font-weight: bold;
     color: black;
     text-decoration: underline;
 } 
@@ -116,6 +124,7 @@ h1{
    text-align: center;
    font-family: arial;
    font-size: 20px;
+   font-weight: bold;
    color: black;
    text-decoration: underline;
 
@@ -141,6 +150,7 @@ h1{
     text-align: center;
     font-family: arial;
     font-size: 20px;
+    font-weight: bold;
     color: black;
     text-decoration: underline;
 }
@@ -182,7 +192,7 @@ h1{
     display: inline-block;
     width: 100%;
     height: 100%;
-    background: black;
+    background-image: url("../imgs/istockphoto-611867074-612x612.jpg");
 
 }
 .foot a{
